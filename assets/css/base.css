@@ -36,6 +36,7 @@ a {
     position: relative;
     display: inline-flex;
     font-size: 1rem;
+    font-family: "Sora", sans-serif;
 }
 
 .logo__circle::before,
@@ -116,5 +117,14 @@ a {
 .arrow:hover {
     cursor: pointer;
     background: #2e80ce;
+    border: 1px solid #2e80ce;
     color: #fff;
+}
+
+textarea,
+input,
+select,
+button {
+    font-family: inherit;
+    font-size: inherit;
 }
